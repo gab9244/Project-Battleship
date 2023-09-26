@@ -1,0 +1,26 @@
+{
+  "name": "project-battleship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "project.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gab9244/Project-Battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gab9244/Project-Battleship/issues"
+  },
+  "homepage": "https://github.com/gab9244/Project-Battleship#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

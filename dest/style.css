@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#009DC4 ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header{
+    gap: 40px;
+    display: flex;
+    padding-top: 40px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+   width: 15vw;
+   height: 2vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#startGame{
+    width: 10vw;
+    font-size: 20px;
+    border: none;
+    transition: 0.5s;
+    background-color: green;
+    color: white;
+    font-family: sans-serif;
+}
+
+#startGame:active {
+    box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+#remove{
+  content: none;
+}
+#GamePage{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+#GamePage h1{
+    color: white;
+    font-family: sans-serif ;
+}
+#playerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 115px;
+    gap: 20px;
+}
+#player{
+    display: grid;
+    width:100%;
+    height:  40%;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(10, 1fr) ;
+   
+    
+}
+
+#player div{
+   display: grid;
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+
+#computer{
+    display: grid;
+    width:100%;
+    height:  40%;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(10, 1fr) ;
+
+}
+
+#computer div {
+    display: grid;
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+
+}
+
+
+
+#options{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 150px;
+    background-color: yellow;
+    
+}
+#options div {
+    margin: 10px;
+}
+.carrir-preview{
+    width: 250px;
+    height: 30px;
+    background-color: red;
+    
+}
+.battleship-preview{
+    width: 200px;
+    height: 30px;
+    background: brown;
+}
+
+.cruiser-preview{
+    width: 150px;
+    height: 30px;
+    background-color: purple;
+}
+
+.submarine-preview{
+    width: 150px;
+    height: 30px;
+    background-color: black;
+}
+
+.destroyer-preview {
+    width: 100px;
+    height: 30px;
+    background-color: pink;
+}
+
+.carrir{
+    background-color: red;
+}
+.battleship{
+    background-color: brown;
+}
+
+.cruiser{
+    background-color: purple;
+}
+
+.submarine{
+ background-color: black;
+}
+
+.destroyer{
+    background-color: pink;
+}
+
+#buttonsContainer{
+    display: flex;
+    gap: 30px;
+}
+#buttonsContainer button {
+    font-size: 20px;
+    padding: 10px;
+}
